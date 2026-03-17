@@ -1,25 +1,21 @@
 {
   "compilerOptions": {
     "target": "esnext",
-    "module": "nodenext",
+    "module": "commonjs",
     "rootDir": "./src",
-    "outDir": "./dist",
+    
     "sourceMap": true,
-    "declaration": true,
-    "declarationMap": true,
+    "outDir": "./dist",
     "removeComments": true,
+
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
+    
     "strict": true,
     "noImplicitAny": true,
-    "skipLibCheck": true,
-    "resolveJsonModule": true,
-    "lib": ["esnext"]
-  },
-  "ts-node": {
-    "esm": true,
-    "experimentalEsm": true
-  },
-  "include": ["src"],
-  "exclude": ["node_modules", "dist"]
+    "skipLibCheck": true
+
+
 }
+}
+

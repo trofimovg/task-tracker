@@ -15,6 +15,8 @@
   "type": "commonjs",
   "main": "src/index.ts",
   "scripts": {
+    "start": "dotenv -- ts-node src/index",
+    "dev": "dotenv -- nodemon src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
